@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Siscomex.Automacao.Application/Siscomex.Automacao.Application.csproj" />
+  <Project Path="Siscomex.Automacao.Core/Siscomex.Automacao.Core.csproj" />
+  <Project Path="Siscomex.Automacao.Infrastructure/Siscomex.Automacao.Infrastructure.csproj" />
+  <Project Path="Siscomex.Automacao.Runner/Siscomex.Automacao.Runner.csproj" />
+</Solution>

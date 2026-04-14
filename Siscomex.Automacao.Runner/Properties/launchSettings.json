@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Siscomex.Automacao.Runner": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DB_CONN": "Server=localhost;Database=siscomex_automacao;Uid=root;Pwd=root123;",
+        "CERT_PATH": "C:\\Users\\costa\\OneDrive\\Documentos\\Projetos\\Siscomex.Automacao\\ENDERSON RUIZ DE CASTRO_67635466291.pfx",
+        "CERT_PASS": "2e123456$$"
+      }
+    }
+  }
+}
