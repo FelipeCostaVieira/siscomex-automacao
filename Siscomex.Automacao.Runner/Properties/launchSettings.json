@@ -5,7 +5,9 @@
       "environmentVariables": {
         "DB_CONN": "Server=localhost;Database=siscomex_automacao;Uid=root;Pwd=root123;",
         "CERT_PASS": "2e123456$$",
-        "CERT_PATH": "\"C:\\Users\\costa\\OneDrive\\Documentos\\Projetos\\Siscomex.Automacao\\173955208_ENDERSON_RUIZ_DE_CASTRO_67635466291.pfx\""
+        "CERT_PATH": "C:\\Users\\costa\\OneDrive\\Documentos\\Projetos\\Siscomex.Automacao\\173955208_ENDERSON_RUIZ_DE_CASTRO_67635466291.pfx",
+        "CERT_CPF_CNPJ": "67635466291",
+        "PORTAL_URL": "https://portalunico.siscomex.gov.br"
       }
     }
   }
