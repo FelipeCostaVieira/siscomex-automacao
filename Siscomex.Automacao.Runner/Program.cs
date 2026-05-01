@@ -31,7 +31,6 @@ namespace Siscomex.Automacao.Runner
             var page = await context.NewPageAsync();
 
             await page.GotoAsync("https://www1.siscomex.receita.fazenda.gov.br/siscomexImpweb-7/login_cert.jsp");
-
             await page.WaitForLoadStateAsync();
 
             Console.WriteLine("Página carregada com certificado!");
@@ -39,7 +38,6 @@ namespace Siscomex.Automacao.Runner
             Console.WriteLine(Environment.GetEnvironmentVariable("DB_CONN"));
 
             var connString = Environment.GetEnvironmentVariable("DB_CONN");
-
             using var conn = new MySqlConnection(connString);
 
             try
@@ -68,6 +66,4 @@ namespace Siscomex.Automacao.Runner
 
             await browser.CloseAsync();
         }
-    }
-
 }
