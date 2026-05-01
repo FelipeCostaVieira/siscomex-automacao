@@ -22,7 +22,7 @@ namespace Siscomex.Automacao.Application.Siscomex
             var context = await _browserFactory.CriarContextoAsync();
             var page = await context.NewPageAsync();
 
-            await page.GotoAsync("https://www4.siscomex.gov.br");
+            await page.GotoAsync("https://www1c.siscomex.receita.fazenda.gov.br/siscomexImpweb-7/inicio.html");
 
             // TODO: navegar até consulta DI
             // TODO: preencher número
